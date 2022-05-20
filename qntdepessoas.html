@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>qntdpessoas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        let qtdePessoas,contMulheres=0,contHomens=0;
+        qtdePessoas=prompt("quantos pessoas na sala de aula?");
+        for(var i = 0; i< qtdePessoas; i++) {
+            var gente = prompt("Digite F para Feminino ou M para Masculino ");
+            if(gente == 'f' || gente == 'F')
+                contMulheres++;
+            else
+            contHomens++;
+        }
+        alert("Quantidade de mulheres:" + contMulheres + "\nQuantidade de homens: " +contHomens);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
